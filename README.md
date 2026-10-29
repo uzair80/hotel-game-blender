@@ -5,3 +5,6 @@
 - Male_Albedo.png / Male_Normal.png - textures (keep next to the .blend files)
 - fpstool.py - helper script
 Blender 5.2. Not yet exported to or tested in Unity.
+
+Texture note: the stage3 file uses relative texture paths (//Male_Albedo.png), so it works from any folder as long as the PNGs sit beside it.
+For v2 and MaleBase_stage5 the paths are absolute (C:\Users\PC\Desktop\blender\...): after cloning use File > External Data > Find Missing Files, or clone into that same folder.
